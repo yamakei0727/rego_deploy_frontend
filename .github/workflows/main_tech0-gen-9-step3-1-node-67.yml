@@ -24,7 +24,7 @@ jobs:
           node-version: '20.x'
 
       - name: npm install, build, and test
-      #1
+      #1追加
         env:
           NEXT_PUBLIC_API_ENDPOINT: ${{ secrets.NEXT_PUBLIC_API_ENDPOINT }}
         run: |
